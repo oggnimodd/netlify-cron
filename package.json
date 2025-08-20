@@ -1,0 +1,15 @@
+{
+  "name": "netlify-cron",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@netlify/functions": "^4.2.2"
+  }
+}
